@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import SGDClassifier
 import time
 
+
 # input: X is normalized features, k is number of principle components
 def pca(X, k):
     # take covariance matrix
